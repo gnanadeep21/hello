@@ -1,0 +1,33 @@
+Platform: any hardware or softwware which helps to run the program is called the platform. java has the run time environment is JRE.
+
+First java program
+
+class Simple{
+	public static void main(String args[]){
+	System.out.println("Hello world");
+	}
+}
+
+What happens during runme?
+at compile time java file i compiled by java compiler and converts java code into bytecode.
+
+what happens during runtime?
+during rutime t perform some steps.
+class file -> classloader -> bytecode verifu=ied -> interpreter -> runtime -> hardware.
+
+JVM(java virtual machine):
+it is the helps the java code to eexcute after compilaton. it will excute the bytecode which was created during compile time.
+jvm is platform dependent. every system has its own specifications and OS.while java is platform independent.
+jvm has 3 notions.
+-specifications is where working of jvm is specifoed.it id platform dependent, while the implementation is platform independent.
+-implementaton is known as jre.
+-instancewhen we run a comand in prompt the instance of jvm is created
+it will perform main tasks like load code, verify code,execute code, provide runtime environment.
+
+JRE(java runtime environment)
+it is the set of tools that helps to create java applications.it provides runtime environment.it is implementation of jvm.
+
+JDK(java development kit)
+it is simple java environment which helps to make java applications. it consits of JRE and develpmwnt tools.
+
+Just-In-Time(JIT) compiler: It is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. Here, the term "compiler" refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.
